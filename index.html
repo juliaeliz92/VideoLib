@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>VideoLib</title>
+		<meta name="description" content="">
+		<!-- Mobile viewport -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+		<!-- Custom CSS -->
+		<link href="css/styles.css" rel="stylesheet">
+		<!-- Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+	    <script src="js/modernizr-2.6.2.min.js"></script>
+	    <!-- Custom JS -->
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body>
+		<!--start of main container-->
+		<div class="container">
+			<!--start of nav-bar-->
+			<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button class="navbar-toggle collapsed" data-target="#navbar"  data-toggle="collapse" type="button">
+							<span class="icon-bar"></span>
+		            		<span class="icon-bar"></span>
+		            		<span class="icon-bar"></span>
+		            		<span class="icon-bar"></span>
+						</button>
+						<a href="#" class="navbar-brand" id="brand"><strong>VideoLib</strong></a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li class="active">
+								<a href="#">Home</a>
+							</li>				
+							<li class="dropdown">
+							<a href="#" class="dropdown" data-toggle="dropdown"><strong class="caret"></strong> Career</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">HR</a>
+									</li>
+									<li>
+										<a href="#">Development</a>
+									</li>
+									<li>
+										<a href="#">Support</a>
+									</li>
+									<li class="divider"></li>
+									<li class="dropdown-header">
+										Posting Resume
+									</li>
+									<li>
+										<a href="#">Post Resume</a>
+									</li>
+									<li>
+										<a href="#">Edit Resume</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Contact</a>
+							</li>
+							<li>
+								<a href="#">About</a>
+							</li>
+						</ul>
+						<form class="navbar-right" id="search_form">
+							<input type="text" name="search" id="search" placeholder="Search here">
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+						</form>
+					</div>	
+				</div>	
+			</nav>
+			<!--end of nav-bar-->
+			<!--start of carousel-->
+			<div id="advert" class="carousel slide" data-ride="carousel">
+	  			<ol class="carousel-indicators">
+				    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#myCarousel" data-slide-to="1"></li>
+				    <li data-target="#myCarousel" data-slide-to="2"></li>
+	  			</ol>
+	  			<div class="carousel-inner" role="listbox" id="ad1">
+				    <div class="item active">			      
+				    	<div class="carousel-caption">
+					      	<p>
+					      		Get it on Google Play
+					      	</p>
+				     	</div>
+				    </div>
+				    <div class="item" id="ad2">			      
+				    </div>
+				    <div class="item" id="ad3">			     
+				    </div>		
+			  	</div>
+			  	<a class="left carousel-control" href="#advert" role="button" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+	  			</a>
+				<a class="right carousel-control" href="#advert" role="button" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				</a>
+			</div> 	
+			<!--end of carousel-->
+			<!--start of row block1-->
+			<div class="row" id="info">
+				<div class="col-12">
+					<!--start of alert block-->
+					<div class="alert alert-danger alert-block alert-dismissible fade in" role="alert" id="logAlert">
+						<button type="button" class="close" data-dismiss="alert">&times;</button>
+					    <p><span class="glyphicon glyphicon-exclamation-sign" ></span>Oops! You can't get in. Log in to see more information about the site....</p>
+					</div>
+					<!--end of alert block-->
+					<!--start of app block-->
+					<div class="well well-small visible-sm">
+						<a href="#" class="btn btn-large btn-link">Click here to get the app....</a>
+					</div>
+					<!--end of app block-->
+					<!--start of heading block-->
+					<div class="well">
+						<div class="page-header">
+							<h1>Welcome to VideoLib! <small>Looking for that one video you always wanted?</small></h1>
+						</div>
+						<p class="lead"> Well, you're in luck!</p>
+						<p> VideoLib is a perfect place where you can view and download all your favourite videos with just a click!</p>
+						<a href="#" class="btn  btn-info" id="infoBtn">Get more info</a>
+						<a href="#" class="btn btn-lg btn-link">Find us</a>
+					</div>
+					<!--end of heading block-->
+				</div>
+			</div>
+			<!--end of row block1-->
+			<!--start of row block2-->
+			<div class="row" id="action">
+				<div class="col-md-12">
+					<!--start of panel1 block-->
+					<div class="col-md-4">
+						<div class="panel panel-default offer">
+							<div class="panel-heading">
+								<h1 class="panel-title"><strong>New Offers!!!</strong></h1>
+							</div> 
+							<div class="panel-body">
+								<img src="images/offer.jpg" align="offer_logo" class="img-circle">
+								<p>Check out the new discounts with video downloading(Limited time period)</p>
+							</div>
+							<div class="panel-footer">
+								<a href="#" class="btn btn-primary btn-large" id="infoBtn2">More Info</a>
+							</div>
+						</div>
+					</div>
+					<!--end of panel1 block-->
+					<!--start of panel2 block-->
+					<div class="col-md-4">
+						<div class="panel panel-default register">
+							<div class="panel-heading">
+								<h1 class="panel-title"><strong>Register</strong></h1>
+							</div>
+							<div class="panel-body">
+								<img src="images/register.jpg" align="register_logo" class="img-circle">
+								<p>Hello newbies!! Enter your details to create your account</p>							
+							</div>
+							<div class="panel-footer">
+								<button class="btn btn-danger" data-toggle="modal" data-target="#register">Register</button>
+							</div>
+						</div>
+					</div>
+					<!--end of panel2 block-->
+					<!--start of panel3 block-->
+					<div class="col-md-4">
+						<div class="panel panel-default login">
+							<div class="panel-heading">
+								<h1 class="panel-title"><strong>Login</strong></h1>
+							</div>
+							<div class="panel-body">
+								<img src="images/login.jpg" align="login_logo" class="img-circle">
+								<p>Hello again! Get in with your login credentials</p>
+							</div>
+							<div class="panel-footer">
+								<button class="btn btn-success" data-toggle="modal" data-target="#login">Login</button>
+							</div>
+						</div>
+					</div>
+					<!--end of panel3 block-->
+				</div>
+			</div>
+			<!--end of row block2-->
+			<!--start of row block3-->
+			<div class="row" id="fav">
+				<div class="col-sm-6">
+					<!--start of tabs block-->
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+						  <li class="active"><a href="#vid" data-toggle="tab">Video of the day</a></li>
+						  <li><a href="#user" data-toggle="tab">Winner of the day!!</a></li>
+						</ul>
+						<div class="tab-content" data-toggle="tab" id="tab">
+							<!--start of tab1-->
+							<div class="tab-pane active" id="vid">
+								<h4><strong>Angry Birds - Early Hatchling gets the Worm</strong></h4>
+								<iframe id="vid_lg" class="visible-lg" src="https://www.youtube.com/embed/E4J2umZrwng" frameborder="0" allowfullscreen>
+								</iframe>
+								<iframe id="vid_md" class="visible-sm" src="https://www.youtube.com/embed/E4J2umZrwng" frameborder="0" allowfullscreen>
+								</iframe>
+								<iframe id="vid_xs" class="visible-xs" src="https://www.youtube.com/embed/E4J2umZrwng" frameborder="0" allowfullscreen>
+								</iframe>
+								<hr>
+								<button type="button" class="btn btn-success" data-toggle="modal" data-target="#download">Download</button>
+							</div>
+							<!--end of tab1-->
+							<!--start of tab2-->
+							<div class="tab-pane" id="user">
+								<div class="media">
+									<div class="media-left">
+										<a href="#">
+										  <img src="images/winner.jpg" alt="winner" class="media-left">
+										</a>
+									</div>
+									<div class="media-body">
+										<h4 class="media-heading">Congratulation, <strong>Audrey</strong>!</h4>
+										<p class="pull-right">Audrey(audreywonder345) is a part-time animator and a college student who likes collecting her favourite videos. She is also a storywriter, a singer and a songwriter too. Kind of cool, huh? She is a valuable user to VideohHub for over 2 years for uploading a good amount of cool videos. Out of 10,000 picks, we have selected hers which we found entertaining.</p>
+										<p id="para1">Now to the main part, Audrey won an I-Phone worth of 92,000 rupees. You can win prizes too by taking part in the competition, just follow the instructions</p>
+									</div>
+								</div>
+							</div>
+							<!--end of tab2-->
+						</div>
+					</div>
+					<!--end of tab block-->
+				</div>
+				<!--start of download modal block-->
+				<div id="download" class="modal fade" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h3 class="modal-title"><strong>Download Video</strong></h3>
+							</div>
+						</div>
+						<div class="modal-body">
+							Oops.... you're not logged in. Please log in.
+							<div class="form-group">
+								  <label for="name">Name:</label>
+								  <input type="text" class="form-control" id="name">
+							</div>
+							<div class="form-group">
+								  <label for="pass">Password:</label>
+								  <input type="password" class="form-control" id="pass">
+							</div>
+							<button class="btn btn-success">Login</button>
+						</div>
+					</div>
+				</div>
+				<!--end of download modal block-->	
+				<!--start of register modal block-->
+				<div id="register" class="modal fade" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h3 class="modal-title"><strong>Register</strong></h3>
+							</div>
+						</div>
+						<div class="modal-body">
+							<div class="form-group">
+								  <label for="name">Name:</label>
+								  <input type="text" class="form-control" id="name">
+							</div>
+							<div class="form-group">
+								  <label for="email">Email:</label>
+								  <input type="email" class="form-control" id="email">
+							</div>
+							<div class="form-group">
+								  <label for="pass">Password:</label>
+								  <input type="password" class="form-control" id="pass">
+							</div>
+							<div class="form-group">
+								  <label for="pass2">Confirm Password:</label>
+								  <input type="password" class="form-control" id="pass2">
+							</div>
+							<button class="btn btn-success">Register</button>
+						</div>
+					</div>
+				</div>
+				<!--end of register modal block-->				
+				<div class="col-sm-6" id="instruct">
+					<h2>Want to vote for the next video of the day?</h2>
+					<h3>Just follow below instruction</h3>
+					<!--start of list-group block-->
+					<ol class="list-group">
+						<li class="list-group-item">
+							<div class="media">
+								<div class="media-left">
+									<img src="images/login_2.jpg" alt="login" class="thumbnail">
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Step 1</h4>
+									<p>Login into your VideoLib account. If you don't have one, make one... </p>
+								</div>
+							</div>
+						</li>
+					  	<li class="list-group-item">
+					  		<div class="media">
+								<div class="media-left">
+									<img src="images/vote.png" alt="vote" class="thumbnail">
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Step 2</h4>
+									<p>Click on the click, "Vote your video"</p>
+								</div>
+							</div>
+					  	</li>
+					  	<li class="list-group-item">
+					  		<div class="media">
+								<div class="media-left">
+									<img src="images/url.jpg" alt="url" class="thumbnail">
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Step 3</h4>
+									<p>Then, add url and submit. It's that easy....</p>
+								</div>
+							</div>
+					  	</li>
+					</ol>
+					<!--end of list-group block-->
+				</div>	
+			</div>
+			<!--end of row3 block-->
+			<div class="row" id="location">
+				<div class="col-12">
+					<h2>Find us</h2>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15554.280764066616!2d77.6139725!3d12.9353233!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x48d008360cebcde4!2sStackRoute!5e0!3m2!1sen!2sin!4v1479050343006"  frameborder="0" style="border:0" allowfullscreen id="map"></iframe>
+				</div>
+			</div>
+			<!--start of login modal block-->
+			<div id="login" class="modal fade" role="dialog">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h3 class="modal-title"><strong>Login</strong></h3>
+					</div>
+					<div class="modal-body">
+						<div class="form-group">
+							  <label for="name">Name:</label>
+							  <input type="text" class="form-control" id="name">
+						</div>
+						<div class="form-group">
+							  <label for="pass">Password:</label>
+							  <input type="password" class="form-control" id="pass">
+						</div>
+						<button class="btn btn-success">Login</button>
+					</div>
+				</div>
+			</div>
+			<!--end of login modal block-->
+		</div></div>
+		<!--end of main container-->	
+		<footer>
+			<div class="container">
+				<div class="contact1 col-md-4">
+					<dl>
+						<dt><strong><i class="fa fa-building"></i> Office address:</strong></dt>
+						<dd>SilverLane Technologies,<br>Techno Park,<br> Bangalore-6</dd>
+					</dl>
+				</div>
+				<div class="contact2 col-md-4">
+					<dl>
+						<dt><strong><i class="fa fa-address-book"></i> Contact number:</strong></dt>
+						<dd><i class="fa fa-mobile"></i> 9438478589<br><i class="fa fa-phone"></i> 0484-689340</dd>
+					</dl>
+				</div>
+				<div class="contact3 col-md-4">
+					<dl>
+						<dt><strong><i class="fa fa-keyboard-o"></i> Contact link:</strong></dt>
+						<dd><i class="fa fa-facebook"></i> <a href="#">www.facebook.com/VideoHub.html</a><br><i class="fa fa-twitter"></i> <a href="#">www.Twitter.com/VideoHub.html</a><br><i class="fa fa-linkedin"></i> <a href="#">www.LinkedIn.com/VideoHub.html</a></dd>
+					</dl>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
+

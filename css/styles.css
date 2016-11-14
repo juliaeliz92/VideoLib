@@ -1,0 +1,255 @@
+
+   body
+   {
+      background: url('../images/wallpaper.jpg');
+   }
+   
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   .well .page-header
+   {
+      margin-top: 0;
+
+   }
+   .well .page-header h1
+   {
+      margin-top: 0;
+     
+   }
+   .nav ul a
+   {
+      color: black;
+   }
+   .well
+   {
+      text-align: center;
+   }
+    #action .panel
+   {
+      height:445px;
+   }
+  .panel img
+    {
+      height: 200px;
+      width: 200px;
+      margin-top: 20px;
+      margin-bottom: 40px;
+   }
+   .panel
+   {
+      background: aliceblue;
+   }
+   #action 
+   {
+      text-align: center;
+   }
+   .offer li
+   {
+      margin-top: 20px;
+      margin-right: 50px;
+      list-style-type: square;
+      margin-left: 20px;
+   }
+   .register li, .login li
+   {
+      list-style-type: none;  
+   }
+   #action p
+   {
+      margin-bottom: 20px;
+   }
+   .panel-body
+   {
+      height: 350px;
+   }
+   
+   #vid,#user
+   {
+      height: 425px;
+      background: white;
+      border:1px solid lightgrey;
+   }
+   #vid h4
+   {
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+   }
+   #vid_lg
+   {
+   width:350px;
+   height: 250px;
+   margin-left: 100px;
+
+   }
+   #user h4
+   {
+      margin-left: 45px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+   }
+   #user img
+   {
+      width: 100px;
+      height: 100px;
+      margin-left: 20px;
+      margin-top:82px;
+   }
+   #user p
+   {
+      margin-right: 30px;
+   }
+   #instruct
+   {
+      background: aliceblue;
+      border:1px solid lightgrey;
+      height: 590px;
+      margin-bottom: 50px;
+   }
+   #instruct img
+   {
+      height: 100px;
+      width: 100px;
+   }
+   #instruct h4
+   {
+      margin-bottom: 30px;
+   }
+   footer
+   {
+      background: silver;
+     
+   }
+   footer dl
+   {
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+   }
+   #vid_md
+   {
+      margin-left: 20px;
+   }
+   #vid_xs
+   {
+      margin-left: 15px;
+   }
+   #vid .btn
+   {
+      margin-left:220px;
+   }
+   #tab
+   {
+      margin-bottom: 30px;
+   }
+   #location
+   {
+      background: aliceblue;
+      text-align: center;
+      margin-bottom: 30px;
+      border: 1px solid lightgrey;
+   }
+   #map
+   {
+      margin-bottom: 20px;
+      width: 90%;
+      height:600px;
+   }
+   #location h2
+   {
+      margin-bottom: 20px;
+      margin-top: 25px;
+   }
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   .navbar
+   {
+      background: skyblue;
+   }
+   #brand
+   {
+      color: black;
+   }
+   #search_form
+   {
+      padding-top: 5px;
+   }
+
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   #advert .item
+   {
+      height: 400px;
+
+   }
+   #advert
+   {
+      margin-top: 51px;
+   }
+   
+  
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+    .well
+   {
+      margin-top: 15px;
+   }
+   .alert
+   {
+      display: none;
+      margin-bottom: 30px;  
+      margin-top: 30px ;
+   }
+   .form-group
+   {
+      margin-top: 20px;
+      margin-bottom: 15px;
+   }
+   .modal
+   {
+      text-align: center;
+   }
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+   
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+   
+   
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+    #ad1
+   {
+      background: url('../images/Google_Play.jpg') top center no-repeat;
+   }
+    #ad2
+   {
+      background: url('../images/Video-gallery.jpg') top center no-repeat;
+   } 
+   #ad3
+   {
+      background: url('../images/video-camera.jpg') top center no-repeat;
+   }
+   
+}
