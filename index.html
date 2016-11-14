@@ -243,39 +243,38 @@
 					<!--end of tab block-->
 				</div>
 				<!--start of download modal block-->
-				<div id="download" class="modal fade" role="dialog">
-					<div class="modal-dialog">
+				<div id="download" class="modal fade" tabindex="-1" role="dialog">
+					<div class="modal-dialog" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 								<h3 class="modal-title"><strong>Download Video</strong></h3>
 							</div>
-						</div>
-						<div class="modal-body">
-							Oops.... you're not logged in. Please log in.
-							<div class="form-group">
-								  <label for="name">Name:</label>
-								  <input type="text" class="form-control" id="name">
+							<div class="modal-body">
+								Oops.... you're not logged in. Please log in.
+								<div class="form-group">
+									  <label for="name">Name:</label>
+									  <input type="text" class="form-control" id="name">
+								</div>
+								<div class="form-group">
+									  <label for="pass">Password:</label>
+									  <input type="password" class="form-control" id="pass">
+								</div>
+								<button class="btn btn-success">Login</button>
 							</div>
-							<div class="form-group">
-								  <label for="pass">Password:</label>
-								  <input type="password" class="form-control" id="pass">
-							</div>
-							<button class="btn btn-success">Login</button>
-						</div>
+						</div>	
 					</div>
 				</div>
 				<!--end of download modal block-->	
 				<!--start of register modal block-->
-				<div id="register" class="modal fade" role="dialog">
-					<div class="modal-dialog">
+				<div id="register" class="modal fade" tabindex="-1" role="dialog">
+					<div class="modal-dialog" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal">&times;</button>
-								<h3 class="modal-title"><strong>Register</strong></h3>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title">Register</h4>
 							</div>
-						</div>
-						<div class="modal-body">
+							<div class="modal-body">
 							<div class="form-group">
 								  <label for="name">Name:</label>
 								  <input type="text" class="form-control" id="name">
@@ -289,13 +288,14 @@
 								  <input type="password" class="form-control" id="pass">
 							</div>
 							<div class="form-group">
-								  <label for="pass2">Confirm Password:</label>
-								  <input type="password" class="form-control" id="pass2">
+								  <label for="pass1">Confirm Password:</label>
+								  <input type="password" class="form-control" id="pass1">
 							</div>
-							<button class="btn btn-success">Register</button>
-						</div>
-					</div>
-				</div>
+							<button class="btn btn-success">Login</button>
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal-dialog -->
+				</div><!-- /.modal -->
 				<!--end of register modal block-->				
 				<div class="col-sm-6 col-xs-12" id="instruct">
 					<h2>Want to vote for the next video of the day?</h2>
