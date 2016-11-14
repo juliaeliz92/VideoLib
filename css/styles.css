@@ -5,10 +5,6 @@
    }
    
 
-
-/* --------------------------------------
-   Typography
-   -------------------------------------- */
    .well .page-header
    {
       margin-top: 0;
@@ -164,9 +160,7 @@
       margin-top: 25px;
    }
 
-/* --------------------------------------
-   Navbar
-   -------------------------------------- */
+
    .navbar
    {
       background: skyblue;
@@ -182,9 +176,6 @@
 
    
    
-/* --------------------------------------
-   Carousel
-   -------------------------------------- */
    #advert .item
    {
       height: 400px;
@@ -195,11 +186,7 @@
       margin-top: 51px;
    }
    
-  
 
-/* --------------------------------------
-   Global Styles
-   -------------------------------------- */
     .well
    {
       margin-top: 15px;
@@ -221,23 +208,29 @@
    }
 
 
-/* --------------------------------------
-   Media Queries
-   -------------------------------------- */
 
-/* Portrait & landscape phone */
 @media (max-width: 480px) {
-
+  
    
 }
 
-/* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
+   #ad1
+   {
+      background: url('../images/google-play-2.jpg') top center no-repeat;
+   }
+    #ad2
+   {
+      background: url('../images/Video-gallery-2.jpg') top center no-repeat;
+   }
+    #ad3
+   {
+      background: url('../images/Video-gallery-3.jpg') top center no-repeat;
+   }
    
    
 }
 
-/* Large desktop */
 @media (min-width: 1200px) {
     #ad1
    {
